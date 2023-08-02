@@ -144,33 +144,53 @@
           
         </div>
         
-        <img src="https://Shu682682.github.io/images/gallery/leetcode.png" class="img-fluid w-100 mb-4" alt="LC-Palindrome Number">
+        <img src="https://Shu682682.github.io/images/gallery/Leetcode.png" class="img-fluid w-100 mb-4" alt="LC-Palindrome Number">
         
         <div class="content mb-5">
           <h1 id="palindrome-number">Palindrome Number</h1>
 <h3 id="question">Question</h3>
 <h5 id="given-an-integerx-returntrueifxis-apalindrome-andfalseotherwise">Given an integer x, return true if x is a palindrome, and false otherwise.</h5>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span>Input: x <span style="color:#f92672">=</span> <span style="color:#ae81ff">121</span>
-</span></span><span style="display:flex;"><span>Output: <span style="color:#66d9ef">true</span>
-</span></span><span style="display:flex;"><span>Explanation: <span style="color:#ae81ff">121</span> reads as <span style="color:#ae81ff">121</span> from left to right and from right to left<span style="color:#f92672">.</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isPalindrome</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> x<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>x<span style="color:#f92672">%</span><span style="color:#ae81ff">10</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span><span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> res<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span><span style="color:#f92672">(</span>x<span style="color:#f92672">&gt;</span>res<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>            res<span style="color:#f92672">=</span>res<span style="color:#f92672">*</span><span style="color:#ae81ff">10</span><span style="color:#f92672">+</span>x<span style="color:#f92672">%</span><span style="color:#ae81ff">10</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            x<span style="color:#f92672">/=</span><span style="color:#ae81ff">10</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res<span style="color:#f92672">/</span><span style="color:#ae81ff">10</span><span style="color:#f92672">==</span>x<span style="color:#f92672">||</span>res<span style="color:#f92672">==</span>x<span style="color:#f92672">;</span>
+<blockquote>
+<p>Input: x = 121</p>
+<p>Output: true</p>
+<p>Explanation: 121 reads as 121 from left to right and from right to left.</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isPalindrome</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> x<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>x<span style="color:#f92672">%</span><span style="color:#ae81ff">10</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span><span style="color:#f92672">&amp;&amp;</span> x<span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> res<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span><span style="color:#f92672">(</span>x<span style="color:#f92672">&gt;</span>res<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>      res<span style="color:#f92672">=</span>res<span style="color:#f92672">*</span><span style="color:#ae81ff">10</span><span style="color:#f92672">+</span>x<span style="color:#f92672">%</span><span style="color:#ae81ff">10</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>      x<span style="color:#f92672">/=</span><span style="color:#ae81ff">10</span><span style="color:#f92672">;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> res<span style="color:#f92672">/</span><span style="color:#ae81ff">10</span><span style="color:#f92672">==</span>x<span style="color:#f92672">||</span>res<span style="color:#f92672">==</span>x<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
 </span></span></code></pre></div>
         </div>
 
         
-        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shu682682" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </div>
     </div>
   </div>
@@ -210,9 +230,6 @@
       <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Categories</h6>
         <ul class="list-unstyled">
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/android-and-gaming/">Android and gaming</a>
-          </li>
           <li class="mb-3"><a class="text-dark"
               href="/categories/california-life/">California life</a>
           </li>
