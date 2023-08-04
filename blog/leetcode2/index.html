@@ -104,19 +104,19 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://Shu682682.github.io/about/">About</a>
+            <a class="nav-link" href="https://Shu682682.github.io/blog/">Career</a>
           </li>
           
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://Shu682682.github.io/about/">Foodie</a>
+            <a class="nav-link" href="https://Shu682682.github.io/foodie/">Foodie</a>
           </li>
           
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://Shu682682.github.io/about/">Journeys</a>
+            <a class="nav-link" href="https://Shu682682.github.io/journeys/">Journeys</a>
           </li>
           
           
@@ -145,7 +145,7 @@
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-10 mx-auto">
         
         <a href="/categories/software-engineer"
           class="text-primary">Software engineer</a>
@@ -172,28 +172,28 @@
 <p>Output: [7,0,8]</p>
 <p>Explanation: 342 + 465 = 807.</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> ListNode <span style="color:#a6e22e">addTwoNumbers</span><span style="color:#f92672">(</span>ListNode l1<span style="color:#f92672">,</span> ListNode l2<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  ListNode dummy <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ListNode<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>  ListNode temp <span style="color:#f92672">=</span> dummy<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> carry <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> <span style="color:#f92672">(</span>l1 <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> l2 <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> carry <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>l1 <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      sum <span style="color:#f92672">+=</span> l1<span style="color:#f92672">.</span><span style="color:#a6e22e">val</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>      l1 <span style="color:#f92672">=</span> l1<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>l2 <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      sum <span style="color:#f92672">+=</span> l2<span style="color:#f92672">.</span><span style="color:#a6e22e">val</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>      l2 <span style="color:#f92672">=</span> l2<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    sum <span style="color:#f92672">+=</span> carry<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    carry <span style="color:#f92672">=</span> sum <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    ListNode node <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ListNode<span style="color:#f92672">(</span>sum <span style="color:#f92672">%</span> <span style="color:#ae81ff">10</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    temp<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span> <span style="color:#f92672">=</span> node<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    temp <span style="color:#f92672">=</span> temp<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> dummy<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">static</span> ListNode <span style="color:#41a1c0">addTwoNumbers</span>(ListNode l1, ListNode l2) {
+</span></span><span style="display:flex;"><span>  ListNode dummy = <span style="color:#fc5fa3">new</span> ListNode();
+</span></span><span style="display:flex;"><span>  ListNode temp = dummy;
+</span></span><span style="display:flex;"><span>  <span style="color:#fc5fa3">int</span> carry = <span style="color:#d0bf69">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#fc5fa3">while</span> (l1 != <span style="color:#fc5fa3">null</span> || l2 != <span style="color:#fc5fa3">null</span> || carry == <span style="color:#d0bf69">1</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">int</span> sum = <span style="color:#d0bf69">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">if</span> (l1 != <span style="color:#fc5fa3">null</span>) {
+</span></span><span style="display:flex;"><span>      sum += l1.val;
+</span></span><span style="display:flex;"><span>      l1 = l1.next;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">if</span> (l2 != <span style="color:#fc5fa3">null</span>) {
+</span></span><span style="display:flex;"><span>      sum += l2.val;
+</span></span><span style="display:flex;"><span>      l2 = l2.next;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    sum += carry;
+</span></span><span style="display:flex;"><span>    carry = sum / <span style="color:#d0bf69">10</span>;
+</span></span><span style="display:flex;"><span>    ListNode node = <span style="color:#fc5fa3">new</span> ListNode(sum % <span style="color:#d0bf69">10</span>);
+</span></span><span style="display:flex;"><span>    temp.next = node;
+</span></span><span style="display:flex;"><span>    temp = temp.next;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#fc5fa3">return</span> dummy.next;
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
         </div>
 
