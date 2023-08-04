@@ -6,58 +6,76 @@
     <description>Recent content in Data Structure on Sophia | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jul 2023 18:49:23 +0600</lastBuildDate><atom:link href="https://Shu682682.github.io/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Aug 2023 10:29:23 +0600</lastBuildDate><atom:link href="https://Shu682682.github.io/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java OOP</title>
+      <link>https://Shu682682.github.io/career/java_oop/</link>
+      <pubDate>Thu, 03 Aug 2023 10:29:23 +0600</pubDate>
+      
+      <guid>https://Shu682682.github.io/career/java_oop/</guid>
+      <description>Java Object-Oriented Programming Three major Object-Oriented Programming (OOP) concepts in Java are Encapsulation, Inheritance, and Polymorphism.</description>
+    </item>
+    
+    <item>
+      <title>Java Introduction</title>
+      <link>https://Shu682682.github.io/career/java_basic/</link>
+      <pubDate>Wed, 02 Aug 2023 10:29:23 +0600</pubDate>
+      
+      <guid>https://Shu682682.github.io/career/java_basic/</guid>
+      <description>Java Java is a programming language and computing platform first released by Sun Microsystems in 1995, and it is owned by Oracle, and more than 3 billion devices run Java.</description>
+    </item>
+    
     <item>
       <title>LC-Longest Substring Without Repeating Characters</title>
-      <link>https://Shu682682.github.io/blog/leetcode3/</link>
+      <link>https://Shu682682.github.io/leetcode/leetcode3/</link>
       <pubDate>Fri, 28 Jul 2023 18:49:23 +0600</pubDate>
       
-      <guid>https://Shu682682.github.io/blog/leetcode3/</guid>
+      <guid>https://Shu682682.github.io/leetcode/leetcode3/</guid>
       <description>Longest Substring Without Repeating Characters Question Given a string s, find the length of the longest substring without repeating characters.</description>
     </item>
     
     <item>
       <title>LC-Add Two Numbers</title>
-      <link>https://Shu682682.github.io/blog/leetcode2/</link>
+      <link>https://Shu682682.github.io/leetcode/leetcode2/</link>
       <pubDate>Thu, 27 Jul 2023 18:49:23 +0600</pubDate>
       
-      <guid>https://Shu682682.github.io/blog/leetcode2/</guid>
+      <guid>https://Shu682682.github.io/leetcode/leetcode2/</guid>
       <description>Add Two Numbers Question You are given two non-empty linked lists representing two non-negative integers.</description>
     </item>
     
     <item>
       <title>LC-Two Sum</title>
-      <link>https://Shu682682.github.io/blog/leetcode1/</link>
+      <link>https://Shu682682.github.io/leetcode/leetcode1/</link>
       <pubDate>Wed, 26 Jul 2023 18:49:23 +0600</pubDate>
       
-      <guid>https://Shu682682.github.io/blog/leetcode1/</guid>
-      <description>Two Sum Question Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</description>
+      <guid>https://Shu682682.github.io/leetcode/leetcode1/</guid>
+      <description>Java Object-Oriented Programming Question Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</description>
     </item>
     
     <item>
       <title>LC-Longest Palindromic Substring</title>
-      <link>https://Shu682682.github.io/blog/leetcode5/</link>
+      <link>https://Shu682682.github.io/leetcode/leetcode5/</link>
       <pubDate>Sat, 22 Jul 2023 18:49:23 +0600</pubDate>
       
-      <guid>https://Shu682682.github.io/blog/leetcode5/</guid>
+      <guid>https://Shu682682.github.io/leetcode/leetcode5/</guid>
       <description>Longest Palindromic Substring Question Given a string s, return the longest palindromic substring in s.</description>
     </item>
     
     <item>
       <title>LC-Palindrome Number</title>
-      <link>https://Shu682682.github.io/blog/leetcode9/</link>
+      <link>https://Shu682682.github.io/leetcode/leetcode9/</link>
       <pubDate>Fri, 21 Jul 2023 10:29:23 +0600</pubDate>
       
-      <guid>https://Shu682682.github.io/blog/leetcode9/</guid>
+      <guid>https://Shu682682.github.io/leetcode/leetcode9/</guid>
       <description>Palindrome Number Question Given an integer x, return true if x is a palindrome, and false otherwise.</description>
     </item>
     
     <item>
       <title>LC-Reverse Integer</title>
-      <link>https://Shu682682.github.io/blog/leetcode7/</link>
+      <link>https://Shu682682.github.io/leetcode/leetcode7/</link>
       <pubDate>Thu, 20 Jul 2023 18:49:23 +0600</pubDate>
       
-      <guid>https://Shu682682.github.io/blog/leetcode7/</guid>
+      <guid>https://Shu682682.github.io/leetcode/leetcode7/</guid>
       <description>Reverse Integer Question Given a signed 32-bit integer x, return x with its digits reversed.</description>
     </item>
     
