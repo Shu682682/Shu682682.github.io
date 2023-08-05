@@ -49,7 +49,34 @@
       <pubDate>Wed, 26 Jul 2023 18:49:23 +0600</pubDate>
       
       <guid>https://Shu682682.github.io/leetcode/leetcode1/</guid>
-      <description>Java Object-Oriented Programming Question Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</description>
+      <description>Two Sum Question Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</description>
+    </item>
+    
+    <item>
+      <title>LC-Merge Two Sorted Lists</title>
+      <link>https://Shu682682.github.io/leetcode/leetcode21/</link>
+      <pubDate>Tue, 25 Jul 2023 10:29:23 +0600</pubDate>
+      
+      <guid>https://Shu682682.github.io/leetcode/leetcode21/</guid>
+      <description>Merge Two Sorted Lists Question You are given the heads of two sorted linked lists list1 and list2.</description>
+    </item>
+    
+    <item>
+      <title>LC-Remove Duplicates from Sorted Array</title>
+      <link>https://Shu682682.github.io/leetcode/leetcode26/</link>
+      <pubDate>Tue, 25 Jul 2023 10:29:23 +0600</pubDate>
+      
+      <guid>https://Shu682682.github.io/leetcode/leetcode26/</guid>
+      <description>Remove Duplicates from Sorted Array Question Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once.</description>
+    </item>
+    
+    <item>
+      <title>LC-Remove Duplicates from Sorted Array</title>
+      <link>https://Shu682682.github.io/leetcode/leetcode27/</link>
+      <pubDate>Tue, 25 Jul 2023 10:29:23 +0600</pubDate>
+      
+      <guid>https://Shu682682.github.io/leetcode/leetcode27/</guid>
+      <description>Remove Element Question Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.</description>
     </item>
     
     <item>
@@ -59,6 +86,15 @@
       
       <guid>https://Shu682682.github.io/leetcode/leetcode5/</guid>
       <description>Longest Palindromic Substring Question Given a string s, return the longest palindromic substring in s.</description>
+    </item>
+    
+    <item>
+      <title>LC- Valid Parentheses</title>
+      <link>https://Shu682682.github.io/leetcode/leetcode20/</link>
+      <pubDate>Sat, 22 Jul 2023 10:29:23 +0600</pubDate>
+      
+      <guid>https://Shu682682.github.io/leetcode/leetcode20/</guid>
+      <description>Valid Parentheses Question Given a string s containing just the characters &amp;lsquo;(&amp;rsquo;, &amp;lsquo;)&amp;rsquo;, &amp;lsquo;{&amp;rsquo;, &amp;lsquo;}&amp;rsquo;, &amp;lsquo;[&amp;rsquo; and &amp;lsquo;]&amp;rsquo;, determine if the input string is valid.</description>
     </item>
     
     <item>

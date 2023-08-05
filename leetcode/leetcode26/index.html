@@ -156,37 +156,35 @@
         <a href="/categories/software-engineer"
           class="text-primary">Software engineer</a>
         
-        <h2>LC-Two Sum</h2>
+        <h2>LC-Remove Duplicates from Sorted Array</h2>
         <div class="mb-3 post-meta">
           <span>By SSophia</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>26 July 2023</span>
+          <span>25 July 2023</span>
           
         </div>
         
-        <img src="https://Shu682682.github.io/images/gallery/LC.png" class="img-fluid w-100 mb-4" alt="LC-Two Sum">
+        <img src="https://Shu682682.github.io/images/gallery/LC.png" class="img-fluid w-100 mb-4" alt="LC-Remove Duplicates from Sorted Array">
         
         <div class="content mb-5">
-          <h1 id="two-sum">Two Sum</h1>
+          <h1 id="remove-duplicates-from-sorted-array">Remove Duplicates from Sorted Array</h1>
 <h3 id="question">Question</h3>
-<h5 id="given-an-array-of-integers-nums-and-an-integer-target-return-indices-of-the-two-numbers-such-that-they-add-up-to-target">Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</h5>
+<h5 id="given-an-integer-array-nums-sorted-in-non-decreasing-order-remove-the-duplicates-in-place-such-that-each-unique-element-appears-only-once-the-relative-order-of-the-elements-should-be-kept-the-same-then-return-the-number-of-unique-elements-in-nums">Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.</h5>
 <blockquote>
-<p>Input: nums = [2,7,11,15], target = 9</p>
-<p>Output: [0,1]</p>
-<p>Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].</p>
+<p>Input: nums = [0,0,1,1,1,2,2,3,3,4]</p>
+<p>Output: 5, nums = [0,1,2,3,4,<em>,</em>,<em>,</em>,_]</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#fc5fa3">class</span> <span style="color:#5dd8ff">Solution</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">int</span>[] <span style="color:#41a1c0">twoSum</span>(<span style="color:#fc5fa3">int</span>[] nums, <span style="color:#fc5fa3">int</span> target) {
-</span></span><span style="display:flex;"><span>        HashMap&lt;Integer, Integer&gt; map =<span style="color:#fc5fa3">new</span> HashMap&lt;&gt;();
-</span></span><span style="display:flex;"><span>       <span style="color:#fc5fa3">for</span>(<span style="color:#fc5fa3">int</span> i=<span style="color:#d0bf69">0</span>;i&lt;nums.length;i++){
-</span></span><span style="display:flex;"><span>           <span style="color:#fc5fa3">int</span> num=nums[i];
-</span></span><span style="display:flex;"><span>           <span style="color:#fc5fa3">int</span> res=target-nums[i];
-</span></span><span style="display:flex;"><span>           <span style="color:#fc5fa3">if</span>(map.containsKey(res)){
-</span></span><span style="display:flex;"><span>               <span style="color:#fc5fa3">return</span> <span style="color:#fc5fa3">new</span> <span style="color:#fc5fa3">int</span>[] {map.get(res),i};
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>           }map.put(num, i);
-</span></span><span style="display:flex;"><span>       }<span style="color:#fc5fa3">return</span> <span style="color:#fc5fa3">null</span>;
+<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#fc5fa3">class</span> <span style="color:#5dd8ff">Solution</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">int</span> <span style="color:#41a1c0">removeDuplicates</span>(<span style="color:#fc5fa3">int</span>[] nums) {
+</span></span><span style="display:flex;"><span>      <span style="color:#fc5fa3">int</span>[] newAr=<span style="color:#fc5fa3">new</span> <span style="color:#fc5fa3">int</span>[nums.length];
+</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">int</span> j=<span style="color:#d0bf69">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">for</span>(<span style="color:#fc5fa3">int</span> i=<span style="color:#d0bf69">1</span>;i&lt;nums.length;i++){
+</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">if</span>(nums[i]!=nums[j]){
+</span></span><span style="display:flex;"><span>                nums[j+<span style="color:#d0bf69">1</span>]=nums[i];
+</span></span><span style="display:flex;"><span>                j++;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }<span style="color:#fc5fa3">return</span> j+<span style="color:#d0bf69">1</span>;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
