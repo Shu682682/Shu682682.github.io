@@ -6,7 +6,16 @@
     <description>Recent content on Sophia | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Aug 2023 10:29:23 +0600</lastBuildDate><atom:link href="https://Shu682682.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 10:29:23 +0600</lastBuildDate><atom:link href="https://Shu682682.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LC-Sum of Root To Leaf Binary Numbers</title>
+      <link>https://Shu682682.github.io/leetcode/leetcode1022/</link>
+      <pubDate>Tue, 15 Aug 2023 10:29:23 +0600</pubDate>
+      
+      <guid>https://Shu682682.github.io/leetcode/leetcode1022/</guid>
+      <description>Sum of Root To Leaf Binary Numbers Question You are given the root of a binary tree where each node has a value 0 or 1.</description>
+    </item>
+    
     <item>
       <title>AWS Cloud Practitioner-Common Test Questions</title>
       <link>https://Shu682682.github.io/career/aws_cloud-practitioner_commontesttopic/</link>
