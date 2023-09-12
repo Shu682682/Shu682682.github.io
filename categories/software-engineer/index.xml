@@ -6,7 +6,16 @@
     <description>Recent content in Software Engineer on Sophia | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Aug 2023 10:29:23 +0600</lastBuildDate><atom:link href="https://Shu682682.github.io/categories/software-engineer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 18:49:23 +0600</lastBuildDate><atom:link href="https://Shu682682.github.io/categories/software-engineer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LC-Unique Paths</title>
+      <link>https://Shu682682.github.io/leetcode/leetcode62/</link>
+      <pubDate>Sun, 20 Aug 2023 18:49:23 +0600</pubDate>
+      
+      <guid>https://Shu682682.github.io/leetcode/leetcode62/</guid>
+      <description>Unique Paths Question There is a robot on an m x n grid.</description>
+    </item>
+    
     <item>
       <title>LC-Sum of Root To Leaf Binary Numbers</title>
       <link>https://Shu682682.github.io/leetcode/leetcode1022/</link>
